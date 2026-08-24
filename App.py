@@ -26,7 +26,9 @@ HTML = """
             display: flex;
             align-items: center;
             justify-content: center;
-            overflow: hidden;
+            padding: 16px 0;
+            overflow-x: hidden;
+            overflow-y: auto;
         }
 
         /* Background */
@@ -79,7 +81,7 @@ HTML = """
         .card {
             width: 90%;
             max-width: 680px;
-            padding: 65px 50px;
+            padding: 48px 50px;
             text-align: center;
 
             background: rgba(255,255,255,0.035);
@@ -305,8 +307,7 @@ HTML = """
             No expectations.
             <br>
             No pressure.
-            <br>
-            No need to reply.
+            
         </p>
 
         <p>
